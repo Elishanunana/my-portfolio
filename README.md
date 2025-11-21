@@ -1,16 +1,103 @@
-# React + Vite
+Elegant Portfolio - Elisha Nunana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive single-page portfolio application built with React and Tailwind CSS. This project showcases professional experience, projects, education, and certifications in a sleek, dark-mode enabled interface.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices.
 
-## React Compiler
+Dark Mode: Built-in dark/light mode toggle with persistent state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Interactive Projects Gallery: Paginated project grid with a "Show More/Less" feature.
 
-## Expanding the ESLint configuration
+Detailed Modals: Clickable project cards open detailed modals with descriptions, responsibilities, tech stacks, and image galleries.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Work Experience Modals: Interactive resume section where work experience cards open to reveal in-depth role details.
+
+Image Lightbox: Full-screen image viewer for project screenshots.
+
+Animations: Smooth scroll-in animations (FadeIn) and a custom orbiting tech stack hero animation.
+
+Downloadable CV: Direct link to download a PDF resume.
+
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+Language: JavaScript (ES6+)
+
+📂 Project Structure
+my-portfolio/
+├── public/              # Static assets (images, CV PDF)
+│   ├── Elisha_Nunana_CV.pdf
+│   └── ...
+├── src/
+│   ├── assets/          # Source assets
+│   ├── App.jsx          # Main application component
+│   ├── App.css          # Global styles
+│   ├── index.css        # Tailwind directives
+│   └── main.jsx         # Entry point
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+
+🏁 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+Prerequisites
+
+Ensure you have Node.js installed. You can verify this by running:
+
+node -v
+
+
+If not installed, download it from nodejs.org.
+
+Installation
+
+Clone the repository:
+
+git clone [https://github.com/Elishanunana/my-portfolio.git]
+
+
+Navigate to the project directory:
+
+cd my-portfolio
+
+
+Install dependencies:
+
+npm install
+
+Running the Application
+
+Start the development server:
+
+npm run dev
+
+
+Open your browser and visit the local URL shown in the terminal (usually http://localhost:5173/
+).
+
+Building for Production
+
+To build the app for production deployment:
+
+npm run build
+
+
+This will create a dist folder containing the optimized production build.
+
+📄 License
+
+This project is open source and available under the MIT License.
+
+Elisha Nunana - Senior Software Developer
