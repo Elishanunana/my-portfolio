@@ -47,7 +47,7 @@ Installation
 
 Clone the repository:
 
-git clone [https://github.com/Elishanunana/my-portfolio.git]
+git clone [(https://github.com/Elishanunana/elisha-nunana-portfolio.git)]
 
 
 Navigate to the project directory:
