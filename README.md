@@ -30,24 +30,6 @@ Icons: Lucide React
 
 Language: JavaScript (ES6+)
 
-📂 Project Structure
-my-portfolio/
-├── public/              # Static assets (images, CV PDF)
-│   ├── Elisha_Nunana_CV.pdf
-│   └── ...
-├── src/
-│   ├── assets/          # Source assets
-│   ├── App.jsx          # Main application component
-│   ├── App.css          # Global styles
-│   ├── index.css        # Tailwind directives
-│   └── main.jsx         # Entry point
-├── .gitignore
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
-
 🏁 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
